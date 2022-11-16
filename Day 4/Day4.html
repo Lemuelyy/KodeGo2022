@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day4 na pahirap na</title>
+        <link href="Day4.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    </head>
+    <body>
+        <header><h2>Form Example</h2></header>
+            <section>
+                <form>
+                    <p>
+                        <label for="username">Username:</label>
+                        <input id="username" type="text" placeholder="type here" size="30" required>
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input id="password" type="password" placeholder="type here" size="30" required>
+                    </p>
+                    <p>
+                        <label for="batch">Batch:</label>
+                        <select id="batch">
+                            <option value="WD29">WD29</option>
+                            <option selected value="WD30">WD30</option>
+                            <option value="WD31">WD31</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="age">Age:</label>
+                        <input id="age" type="number" min="18" max="30" required>
+                    </p>
+                    <p>
+                        <label for="reason">Why did you join Kodego</label>
+                    </p>
+                    <textarea id="reason"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>        
+    </body>
+</html>
